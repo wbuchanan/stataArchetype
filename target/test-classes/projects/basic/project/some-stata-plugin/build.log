@@ -1,0 +1,80 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building com.mydomain:some-stata-plugin 0.0.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ some-stata-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ some-stata-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ some-stata-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ some-stata-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ some-stata-plugin ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ some-stata-plugin ---
+[INFO] Building jar: /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin.jar
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default) @ some-stata-plugin ---
+[INFO] 
+[INFO] >>> maven-source-plugin:2.4:jar (attach-sources) > generate-sources @ some-stata-plugin >>>
+[INFO] 
+[INFO] <<< maven-source-plugin:2.4:jar (attach-sources) < generate-sources @ some-stata-plugin <<<
+[INFO] 
+[INFO] --- maven-source-plugin:2.4:jar (attach-sources) @ some-stata-plugin ---
+[INFO] Building jar: /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-sources.jar
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.10.3:jar (attach-javadocs) @ some-stata-plugin ---
+[INFO] 
+Loading source files for package com.mydomain.stata...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_60
+Building tree for all the packages and classes...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/StataPlugin.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-frame.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-summary.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-tree.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/constant-values.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/class-use/StataPlugin.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-use.html...
+Building index for all the packages and classes...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/overview-tree.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/index-all.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/allclasses-frame.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/allclasses-noframe.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/index.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/help-doc.html...
+[INFO] Building jar: /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-javadoc.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.5.5:single (make-assembly) @ some-stata-plugin ---
+[INFO] Building jar: /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-jar-with-dependencies.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ some-stata-plugin ---
+[INFO] Installing /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin.jar to /Users/billy/.m2/repository/com/mydomain/some-stata-plugin/0.0.0-SNAPSHOT/some-stata-plugin-0.0.0-SNAPSHOT.jar
+[INFO] Installing /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/pom.xml to /Users/billy/.m2/repository/com/mydomain/some-stata-plugin/0.0.0-SNAPSHOT/some-stata-plugin-0.0.0-SNAPSHOT.pom
+[INFO] Installing /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-sources.jar to /Users/billy/.m2/repository/com/mydomain/some-stata-plugin/0.0.0-SNAPSHOT/some-stata-plugin-0.0.0-SNAPSHOT-sources.jar
+[INFO] Installing /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-javadoc.jar to /Users/billy/.m2/repository/com/mydomain/some-stata-plugin/0.0.0-SNAPSHOT/some-stata-plugin-0.0.0-SNAPSHOT-javadoc.jar
+[INFO] Installing /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-jar-with-dependencies.jar to /Users/billy/.m2/repository/com/mydomain/some-stata-plugin/0.0.0-SNAPSHOT/some-stata-plugin-0.0.0-SNAPSHOT-jar-with-dependencies.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 5.136 s
+[INFO] Finished at: 2016-02-27T09:34:40-06:00
+[INFO] Final Memory: 38M/530M
+[INFO] ------------------------------------------------------------------------
