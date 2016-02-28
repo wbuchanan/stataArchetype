@@ -11,13 +11,16 @@
 			<defaultValue>stata-plugin</defaultValue>
 		</requiredProperty>
 		<requiredProperty key="version">
-			<defaultValue>0.0.0-SNAPSHOT</defaultValue>
+			<defaultValue>0.0.0</defaultValue>
 		</requiredProperty>
 		<requiredProperty key="package">
 			<defaultValue>org.paces.stata.plugins</defaultValue>
 		</requiredProperty>
 		<requiredProperty key="description">
 			<defaultValue>Describe your project here</defaultValue>
+		</requiredProperty>
+		<requiredProperty key="developer_id">
+			<defaultValue>Good Idea to use your GitHub User Name to Populate the SCM entries.</defaultValue>
 		</requiredProperty>
 		<requiredProperty key="scm">
 			<defaultValue>https://github.com/${developer_id}/${artifactId}.git</defaultValue>
@@ -27,9 +30,6 @@
 		</requiredProperty>
 		<requiredProperty key="organization_url">
 			<defaultValue>http://www.yourOrganization.com</defaultValue>
-		</requiredProperty>
-		<requiredProperty key="developer_id">
-			<defaultValue>Good Idea to use your GitHub User Name to Populate the SCM entries.</defaultValue>
 		</requiredProperty>
 		<requiredProperty key="developer_name">
 			<defaultValue>Put Your Name Here</defaultValue>
@@ -57,21 +57,21 @@
 		<fileSet encoding="UTF-8" filtered="true" packaged="false">
 			<directory></directory>
 			<includes>
-				<include>jsample.ado</include>
-				<include>jsample.sthlp</include>
+				<include>__entryMethod__.ado</include>
+				<include>__entryMethod__.sthlp</include>
 				<include>README.md</include>
 			</includes>
 		</fileSet>
 		<fileSet encoding="UTF-8" filtered="true" packaged="true">
 			<directory>src/main/java/</directory>
 			<includes>
-				<include>StataPlugin.java</include>
+				<include>__mainClass__.java</include>
 			</includes>
 		</fileSet>
 		<fileSet encoding="UTF-8" filtered="true" packaged="true">
 			<directory>src/test/java/</directory>
 			<includes>
-				<include>TestStataPlugin.java</include>
+				<include>Test__mainClass__.java</include>
 			</includes>
 		</fileSet>
 	</fileSets>

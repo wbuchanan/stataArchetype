@@ -1,14 +1,14 @@
-package com.mydomain.stata;
+package com.yoursite.yourProject;
 
 import com.stata.sfi.*;
 
 /**
- * This is the description used for the Maven integration test for the Archetype
+ * This project does some stuff and some things, but does not like spam.
  *
- * @author Billy Buchanan
- * @version 0.0.0-SNAPSHOT
+ * @author Your Actual Name
+ * @version 0.0.0
  */
-public class StataPlugin {
+public class ClassUsedByJavacallCommand {
 
 	/**
 	 * Boiler plate method that you can use quickly to get up and running.
@@ -24,7 +24,7 @@ public class StataPlugin {
 	 * API expectations.  Non-zero values trigger errors (much the same way
 	 * that non-zero returns in other compiled languages often indicate errors)
 	 */
-	public static int newMethodThatDoesStuffAndThings(String[] args) {
+	public static int methodUsedByJavacallCommand(String[] args) {
 
 		// Use this method to call class constructors and/or methods
 

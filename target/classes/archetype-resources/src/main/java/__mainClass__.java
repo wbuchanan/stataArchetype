@@ -8,7 +8,7 @@ import com.stata.sfi.*;
  * @author ${developer_name}
  * @version ${version}
  */
-public class StataPlugin {
+public class ${mainClass} {
 
 	/**
 	 * Boiler plate method that you can use quickly to get up and running.

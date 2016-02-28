@@ -10,7 +10,7 @@ import com.stata.sfi.*;
  * @author ${developer_name}
  * @version ${version}
  */
-public class TestStataPlugin {
+public class Test${mainClass} {
 
 	/**
 	 * This version of the method call should have some type of test

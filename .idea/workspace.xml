@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baa50159-7241-42ca-bddb-e0f1d03a7668" name="Default" comment="" />
+    <list default="true" id="baa50159-7241-42ca-bddb-e0f1d03a7668" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src.test.java/Test__mainClass__.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/jsample.ado" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/jsample.sthlp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src.test.java/StataPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/src/main/java/StataPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/jsample.ado" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/jsample.sthlp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/src/main/java/com/mydomain/stata/StataPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/StataPlugin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/class-use/StataPlugin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/classes/com/mydomain/stata/StataPlugin.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/jsample.ado" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.ado" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/jsample.sthlp" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.sthlp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/StataPlugin.java" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/__mainClass__.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stata-archetype-0.0.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/stata-archetype-0.0.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-jar-with-dependencies.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-javadoc.jar" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-sources.jar" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin.jar" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/archetype-resources/README.md" afterPath="$PROJECT_DIR$/src/main/resources/archetype-resources/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/META-INF/archetype-metadata.xml" afterPath="$PROJECT_DIR$/src/test/resources/META-INF/archetype-metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/archetype-metadata.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/archetype-metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/archetype-resources/README.md" afterPath="$PROJECT_DIR$/target/classes/archetype-resources/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/META-INF/archetype-metadata.xml" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/archetype-metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/README.md" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/build.log" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/build.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-frame.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-summary.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-tree.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-use.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/index-all.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/index.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/test-classes/projects/basic/project/some-stata-plugin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="stata-java-archetype.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,52 +79,32 @@
     <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="archetype-metadata.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3798077">
-              <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+            <state vertical-scroll-proportion="-16.083334">
+              <caret line="76" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-93.125">
-              <caret line="156" column="53" selection-start-line="156" selection-start-column="53" selection-end-line="156" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StataPlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/StataPlugin.java">
+      <file leaf-file-name="__entryMethod__.ado" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.ado">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <caret line="74" column="25" selection-start-line="59" selection-start-column="4" selection-end-line="74" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsample.ado" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/jsample.ado">
+      <file leaf-file-name="__entryMethod__.sthlp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.sthlp">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StataPlugin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src.test.java/StataPlugin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="36" />
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -89,39 +114,35 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/archetype-metadata.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-16.083334">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archetype-metadata.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.583333">
-              <caret line="73" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archetype.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/projects/basic/archetype.properties">
+      <file leaf-file-name="example.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example.log">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jsample.sthlp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/jsample.sthlp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor vertical-scroll-proportion="0.15584415">
+                <caret line="4" column="294" selection-start-line="4" selection-start-column="294" selection-end-line="4" selection-end-column="294" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
+          </provider>
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -130,6 +151,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="GradleLocalSettings">
@@ -143,21 +165,25 @@
         <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/sample.ado" />
         <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/sample.sthlp" />
         <option value="$PROJECT_DIR$/src/test/resources/projects.stata/archetype.properties" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/EntryPoint.java" />
         <option value="$PROJECT_DIR$/src/test/projects/basic/goal.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/META-INF/maven/archetype-metadata.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/projects/basic/goal.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src.test.java/StataPlugin.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/StataPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/jsample.ado" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/META-INF/archetype-metadata.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/projects/basic/archetype.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/jsample.sthlp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/StataPlugin.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/src.test.java/Test__mainClass__.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.ado" />
+        <option value="$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.sthlp" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/META-INF/archetype-metadata.xml" />
+        <option value="$PROJECT_DIR$/example.log" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -242,12 +268,12 @@
     <option name="jreName" value="1.8 (1)" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
+    <option name="x" value="509" />
     <option name="y" value="126" />
-    <option name="width" value="1835" />
+    <option name="width" value="1345" />
     <option name="height" value="833" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -272,6 +298,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -425,7 +452,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src.test.java" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,13 +486,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -834,6 +868,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -886,8 +925,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="126" width="1835" height="833" extended-state="0" />
-    <editor active="false" />
+    <frame x="509" y="126" width="1345" height="833" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -899,7 +938,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961518" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CodotaView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -914,8 +953,8 @@
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36842105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986057" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36842105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34382194" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -950,59 +989,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stata-java-archetype.iml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="-0.5194805">
-            <caret line="1" column="157" selection-start-line="1" selection-start-column="157" selection-end-line="1" selection-end-column="157" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.077922076">
-            <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/projects/basic/goal.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <caret line="156" column="53" selection-start-line="156" selection-start-column="53" selection-end-line="156" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src.test.java/StataPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/StataPlugin.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/__mainClass__.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
@@ -1010,7 +1013,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/jsample.ado">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.ado">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="79" selection-start-line="7" selection-start-column="79" selection-end-line="7" selection-end-column="79" />
@@ -1018,26 +1021,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/archetype-metadata.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-93.125">
-          <caret line="156" column="53" selection-start-line="156" selection-start-column="53" selection-end-line="156" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.583333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="73" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/archetype-metadata.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.083334">
-          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1050,7 +1045,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/jsample.sthlp">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.sthlp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
@@ -1058,12 +1053,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stata-java-archetype.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/projects/basic/archetype.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54545456">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/src/main/java/__mainClass__.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57954544">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.625">
+          <caret line="156" column="53" selection-start-line="156" selection-start-column="53" selection-end-line="156" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3798077">
+        <state vertical-scroll-proportion="2.0192308">
           <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/projects/basic/goal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.6233766">
+            <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.ado">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="25" selection-start-line="59" selection-start-column="4" selection-end-line="74" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/archetype-resources/__entryMethod__.sthlp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/maven/archetype-metadata.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.083334">
+          <caret line="76" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/META-INF/archetype-metadata.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.083334">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.15584415">
+            <caret line="4" column="294" selection-start-line="4" selection-start-column="294" selection-end-line="4" selection-end-column="294" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

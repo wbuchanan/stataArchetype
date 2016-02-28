@@ -21,10 +21,20 @@
 [INFO] skip non existing resourceDirectory /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/src/test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ some-stata-plugin ---
-[INFO] Nothing to compile - all classes are up to date
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/test-classes
 [INFO] 
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ some-stata-plugin ---
-[INFO] No tests to run.
+[INFO] Surefire report directory: /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
 [INFO] 
 [INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ some-stata-plugin ---
 [INFO] Building jar: /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/some-stata-plugin.jar
@@ -44,12 +54,12 @@ Loading source files for package com.mydomain.stata...
 Constructing Javadoc information...
 Standard Doclet version 1.8.0_60
 Building tree for all the packages and classes...
-Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/StataPlugin.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/NewStataPlugin.html...
 Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-frame.html...
 Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-summary.html...
 Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-tree.html...
 Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/constant-values.html...
-Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/class-use/StataPlugin.html...
+Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/class-use/NewStataPlugin.html...
 Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/com/mydomain/stata/package-use.html...
 Building index for all the packages and classes...
 Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes/projects/basic/project/some-stata-plugin/target/apidocs/overview-tree.html...
@@ -74,7 +84,7 @@ Generating /Users/billy/Desktop/Programs/Java/stataArchetype/target/test-classes
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time: 5.136 s
-[INFO] Finished at: 2016-02-27T09:34:40-06:00
-[INFO] Final Memory: 38M/530M
+[INFO] Total time: 5.541 s
+[INFO] Finished at: 2016-02-28T05:37:08-06:00
+[INFO] Final Memory: 37M/682M
 [INFO] ------------------------------------------------------------------------

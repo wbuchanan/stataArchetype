@@ -1,9 +1,9 @@
 /******************************************************************************
 *                                                                             *
 * DESCRIPTION:                                                                *
-*   Add information about what this .ado command does.                        *
+*   Add information about what the methodUsedByJavacallCommand command does.               *
 *   Ex.                                                                       *
-*   This program calls the ${entryMethod} of the ${mainClass} class.  This    *
+*   This program calls the methodUsedByJavacallCommand of the ClassUsedByJavacallCommand class.  This    *
 *   method does a thing that I find useful and believe will help others as    *
 *   well.                                                                     *
 *                                                                             *
@@ -16,7 +16,7 @@
 *   doesn't mean that users will have all of the binaries on their classpath  *
 *   if it requires Java binaries that you can't distribute.  List these here  *
 *   along with the JDK used for the build.                                    *
-*   Requires JDK ${target} or higher                                          *
+*   Requires JDK 1.8 or higher                                          *
 *                                                                             *
 * SYSTEM REQUIREMENTS:                                                        *
 *   Does the user need any special permissions/system configurations (e.g.,   *
@@ -35,16 +35,44 @@
 ******************************************************************************/
 
 // Drop program from memory of previously loaded
-cap prog drop jsample
+cap prog drop methodUsedByJavacallCommand
 
 // Define program
-prog def jsample
+prog def methodUsedByJavacallCommand
 
 	// Set version for Stata interpretation
 	version 14.1
 
-	// Set program syntax
-	syntax [if] [in], REQopt(string asis) [ OPTion(string asis) ]
+	/*
+	Set program syntax
+	This contains nearly all the parameter types and their options on separate
+	lines of code.  This is to make it easier to copy/paste parameter types and
+	argument definitions to build out your own customized syntax with greater
+	speed and efficiency.  It also provides an immediate overview of the
+	options available using the syntax command to parse the command.  For some
+	options you will still need to consult the syntax help documentation to
+	make sure there aren't cases where your options create incompatability
+	issues.
+	*/
+	syntax                                                                   ///
+	[varlist(min=# max=# numeric string strL str# fv ts generate)]           ///
+    [namelist(name=yourProject if="What to display" local min=# max=#)]    ///
+	[anything(name=yourProject id="What to display" equalok everything)]   ///
+    [using/]                                                                 ///
+    [=/exp]                                                                  ///
+    [fw aw pw iw/]                                                           ///
+    [if] [in] [,                                                             ///
+    OPTon                                                                    ///
+    noOPTOFF                                                                 ///
+    INTopt(integer 0)                                                        ///
+    REALopt(real 0)                                                          ///
+    CONFIDENCEInterval(cilevel)                                              ///
+    CREDIBLEInterval(crlevel)                                                ///
+    NUMLISTopt(numlist ascending integer missingok >=# <=# sort min=# max=#) ///
+    VARLISTopt(varlist numeric min=# max=# fv ts)                            ///
+    NAMELISTopt(namelist min=# max=# local)                                  ///
+    STRINGopt(string asis)                                                   ///
+    PASSTHRUopt(passthru)
 
 	// Deal with the if/in qualifiers after this you can use the reference
 	// if `touse' to handle any/all if/in arguments.
@@ -69,7 +97,7 @@ prog def jsample
     into the same class to test and debug the plugin from the command line
     independently of Stata.
     */
-    javacall ${mainClass} ${entryMethod} `if' `in', args(`arg0' `arg1')
+    javacall ClassUsedByJavacallCommand methodUsedByJavacallCommand `if' `in', args(`arg0' `arg1')
 
     /*
     Process returned values here.
