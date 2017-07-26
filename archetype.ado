@@ -40,7 +40,7 @@ prog def archetype
 			  MAINClass(string asis) JAVACALLMethod(string asis)			 ///  
 			  BUILDDirectory(string asis) [ GITinit							 ///   
 			  SOUrce(string asis) TARget(string asis)						 ///   
-			  DESCription(string asis) DEVeloperid(string asis)				 ///   
+			  DESCription(string asis) DEVId(string asis)	    			 ///
 			  SCM(string asis) ORGName(string asis) ORGUrl(string asis)		 ///   
 			  DEVName(string asis) DEVUrl(string asis) DEVEmail(string asis) ///   
 			  STVersion(string asis) DEBug ]

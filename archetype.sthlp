@@ -55,7 +55,7 @@ wanting to develop Java-based plugins.{p_end}
 {synopt :{cmdab:sou:rce}} Java version used for source code development {p_end}
 {synopt :{cmdab:tar:get}} Java version used for compilation {p_end}
 {synopt :{cmdab:desc:ription}} description of the plugin {p_end}
-{synopt :{cmdab:dev:eloperid}} unique ID used to identify who you are {p_end}
+{synopt :{cmdab:devi:d}} unique ID used to identify who you are {p_end}
 {synopt :{cmdab:scm:}} source code repository {p_end}
 {synopt :{cmdab:orgn:ame}} institutional affiliation {p_end}
 {synopt :{cmdab:orgu:rl}} organization's website {p_end}
@@ -155,7 +155,7 @@ repository in the build directory prior to building the files.
 {cmdab:desc:ription} This provides a description in both the help file and the pom.xml file.
 
 {phang}
-{cmdab:dev:eloperid} this should be a unique id that can be used to identify you
+{cmdab:devi:d} this should be a unique id that can be used to identify you
 in the project.  If no value is specified, this will default to the value 
 returned by {c 'g}c(username)'.
 
