@@ -218,7 +218,7 @@
 		<dependency>
 			<groupId>com.stata</groupId>
 			<artifactId>sfi</artifactId>
-			<version>14</version>
+			<version>${stata_version}</version>
 			<type>jar</type>
 			<scope>provided</scope>
 			<optional>true</optional>

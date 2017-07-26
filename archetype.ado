@@ -16,13 +16,13 @@
 *   that would be used to write both the Java and Stata code.                  *
 *                                                                              *
 * Lines -                                                                      *
-* 	178	                                                                       *
+* 	185	                                                                       *
 *                                                                              *
 ********************************************************************************
 
 *! archetype
-*! 25JUL2017
-*! v 0.0.1
+*! 26JUL2017
+*! v 0.0.2
 
 // Drops the program from memory if already loaded
 cap prog drop archetype
@@ -43,7 +43,7 @@ prog def archetype
 			  DESCription(string asis) DEVeloperid(string asis)				 ///   
 			  SCM(string asis) ORGName(string asis) ORGUrl(string asis)		 ///   
 			  DEVName(string asis) DEVUrl(string asis) DEVEmail(string asis) ///   
-			  DEBug ]
+			  STVersion(string asis) DEBug ]
 			  
 	// Store user's home directory incase we need to substitute it
 	loc home `"`: env HOME'"'
@@ -153,7 +153,13 @@ prog def archetype
 	
 	// Or use the user-supplied value
 	else loc devemail `"-Ddeveloper_email="`devemail'""'
-
+	
+	// Specifies a default Stata version if not specified
+	if `"`stversion'"' == "" loc stversion `"-Dstata_version="`= int(`c(stata_version)')'""'
+	
+	// Or use the user-supplied value
+	else loc stversion `"-Dstata_version="`stversion'""'
+	
 	// Sets the archetype groupId value
 	loc archetypegroup "-DarchetypeGroupId=org.paces-consulting"
 
@@ -172,7 +178,8 @@ prog def archetype
 	mvn archetype:generate -B `archetypegroup' `archetypeartifact'  		 ///   
 	`archetypeversion' `groupid' `artifactid' `versionnum' `package' 		 ///   
 	`mainclass' `javacallmethod' `source' `target' `devname' `developerid'   ///   
-	`description' `scm' `orgname' `orgurl' `devurl' `devemail' `debug'
+	`description' `scm' `orgname' `orgurl' `devurl' `devemail' `stversion'	 ///   
+	`debug'
 
 // End of program definition	
 end 

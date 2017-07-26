@@ -1,22 +1,15 @@
 {smcl}
 {* *! version 0.0.1 DATEHERE}{...}
-{viewerjumpto "Syntax" "${entryMethod}##syntax"}{...}
-{viewerjumpto "Description" "${entryMethod}##description"}{...}
-{viewerjumpto "Options" "${entryMethod}##options"}{...}
-{viewerjumpto "Examples" "${entryMethod}##examples"}{...}
-{viewerjumpto "Issues" "${entryMethod}##issues"}{...}
-{viewerjumpto "References" "${entryMethod}##refs"}{...}
-{viewerjumpto "Author" "${entryMethod}##author"}{...}
-
+{viewerjumpto "Syntax" "newMethodThatDoesStuffAndThings{viewerjumpto "Description" "newMethodThatDoesStuffAndThings{viewerjumpto "Options" "newMethodThatDoesStuffAndThings{viewerjumpto "Examples" "newMethodThatDoesStuffAndThings{viewerjumpto "Issues" "newMethodThatDoesStuffAndThings{viewerjumpto "References" "newMethodThatDoesStuffAndThings{viewerjumpto "Author" "newMethodThatDoesStuffAndThings
 {hline}
-{p 2 2 8}{title:help for ${entryMethod}}{p_end}
+{p 2 2 8}{title:help for newMethodThatDoesStuffAndThings}{p_end}
 {hline}
 
 {marker syntax}{...}
 {title:Syntax}
 
 {p 8 16 2}
-{cmd:${entryMethod}} [{varlist}] [{it:namelist}] [{it:anything}]
+{cmd:newMethodThatDoesStuffAndThings} [{varlist}] [{it:namelist}] [{it:anything}]
 [{it:using}] [{it:exp}] [{weight}] [{ifin}] [, {cmdab:opt:on} {cmd:optoff}
 {cmdab:int:opt(}{it:integer}{opt )} {cmdab:real:opt(}{it:real}{opt )}
 {cmdab:confidencei:nterval(}{it:real}{opt )} {cmdab:crediblei:nterval(}{it:real}{opt )}
@@ -30,7 +23,7 @@
 {title:Description}
 
 {phang}
-${description}{p_end}
+This is the description used for the Maven integration test for the Archetype{p_end}
 
 
 {marker options}{...}
@@ -70,14 +63,14 @@ point this to the command to which this option is passed thru to.{p_end}
 
 {p 4 4 4}Text explaining the example that follows. {p_end}
 
-{p 8 8 12}{stata ${entryMethod}:${entryMethod}}{p_end}
+{p 8 8 12}{stata newMethodThatDoesStuffAndThings:newMethodThatDoesStuffAndThings}{p_end}
 
 {marker issues}{...}
 {title:Issues, Bugs, and Enhancement Requests}
 
 {phang}
 Please submit any issues, bugs, and future enhancement requests to
-the project respository: {browse ${scm}/issues}{p_end}
+the project respository: {browse https://github.com/wbuchanan/stataArchetype/issues}{p_end}
 
 {marker refs}{...}
 {title:References}
@@ -91,8 +84,8 @@ the project respository: {browse ${scm}/issues}{p_end}
 {marker author}{...}
 {title:Author}
 
-{p 4 4 4}${developer_name}{p_end}
-{p 4 4 4}${organization_name}{p_end}
-{p 4 4 4}${organization_url}{p_end}
-{p 4 4 4}${developer_email}{p_end}
+{p 4 4 4}Billy Buchanan{p_end}
+{p 4 4 4}My Organization Name{p_end}
+{p 4 4 4}http://www.paces-consulting.org{p_end}
+{p 4 4 4}spam@nospam.spam{p_end}
 

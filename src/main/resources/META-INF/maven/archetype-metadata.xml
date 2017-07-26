@@ -53,6 +53,9 @@
 		<requiredProperty key="entryMethod">
 			<defaultValue>pluginMethod</defaultValue>
 		</requiredProperty>
+		<requiredProperty key="stata_version">
+			<defaultValue>13</defaultValue>
+		</requiredProperty>
 	</requiredProperties>
 	<fileSets>
 		<fileSet encoding="UTF-8" filtered="true" packaged="false">
