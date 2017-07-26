@@ -1,0 +1,30 @@
+d 'ARCHETYPE': A Stata wrapper for the Stata Maven Archetype
+d
+d archetype provides users with an easy to use interface to
+d get started developing Stata programs that leverage the Java
+d API.  This program wraps a call to the Maven command line tool
+d to generate a new directory structure and file templates for
+d quick and easy creation of boilerplate code and directory structures
+d needed to build programs for Stata that leverage the Java API.
+d
+d KW: Developer Tools
+d KW: Java
+d KW: Projects
+d KW: templates
+d
+d Requires: Stata version 13.1
+d
+d Distribution-Date: 20170726
+d
+d Author: Billy Buchanan
+d         Director
+d         Office of Data, Research, and Accountability
+d         Fayette County Public Schools
+d
+d
+d Support: email Billy [dot] Buchanan @t fayette [dot] kyschools [dot] us
+d
+f archetype.ado
+f archetype.sthlp
+
+

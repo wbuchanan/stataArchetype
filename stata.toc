@@ -1,0 +1,5 @@
+*! TOC File
+v 3
+d ARCHETYPE Project Page
+
+p archetype A Stata interface to the Stata Maven Archetype
